@@ -1,13 +1,15 @@
 package com.example.springapibank.dto;
 
-import lombok.AllArgsConstructor;
-import lombok.Getter;
+import lombok.*;
 
 import java.util.UUID;
 
 @Getter
 @AllArgsConstructor
+@NoArgsConstructor
+
 public class AccountDTO {
-    private final UUID userID;
-    private final double money;
+    private UUID userID;
+    private double money;
 }
+
