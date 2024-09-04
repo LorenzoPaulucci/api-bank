@@ -8,6 +8,6 @@ import java.util.Optional;
 
 @Mapper(componentModel = "spring")
  public interface UserMapper {
-        UserDTO toDto(Optional<User> user);
+        UserDTO toDto(User user);
         User toEntity(UserDTO userDto);
 }

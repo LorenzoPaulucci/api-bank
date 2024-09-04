@@ -4,7 +4,7 @@ import lombok.*;
 
 import java.util.Date;
 
-@Getter
+@Getter @Setter
 @AllArgsConstructor
 @NoArgsConstructor
 
